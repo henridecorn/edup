@@ -1,3 +1,5 @@
+<%= flash[:notice] %>
+
 <div class="row">
 	 <div class="col-md-6 col-md-offset-2">
 	 	<div class="well">
@@ -5,7 +7,7 @@
 			  <strong>Response:</strong>
 			  <%= @answer.response %>
 			</p>
-			<p><%= @answer.question_id %></p>
+			<p>Réponse à la question : <%= @answer.question_id %></p>
 		</div>
 	</div>
 </div>

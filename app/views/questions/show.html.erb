@@ -1,8 +1,12 @@
  <div class="row">
 	 <div class="col-md-6 col-md-offset-2">
 	 	<div class="well">
+      <p>
+        Question numéro 
+        <%= @question.id %>
+      </p>
 			 <p>
-			  <strong>Wording:</strong>
+			  <strong>Enoncé:</strong>
 			  <%= @question.wording %>
 			</p>
 		</div>
@@ -30,7 +34,7 @@
     <% end %>
   </tbody>
 </table>
-
+<%= link_to 'New Answer', new_answer_path %>
 <br>
 
 
