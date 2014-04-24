@@ -1,0 +1,16 @@
+$btn-primary-bg: green;
+
+@import 'bootstrap';
+
+body {
+	padding-top: 70px;
+}
+
+.footer {
+	margin-top: 50px;
+	color: $gray-light;
+	a {
+		color: $gray;
+	}
+
+}
